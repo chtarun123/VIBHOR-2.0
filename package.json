@@ -10,7 +10,7 @@
     "check": "node --check server/server.js && node --check server/db.js"
   },
   "engines": {
-    "node": "22.0"
+    "node": "22.x"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
