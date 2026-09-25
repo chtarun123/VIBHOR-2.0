@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My VIBHOR — Passport · Quiz · Badges · Journeys · Contributions</title>
+<meta name="description" content="Your personal heritage dashboard: passport stamps, quiz history, achievements, saved journeys, challenges and contributions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' font-family='Georgia' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="myvibhor">
+
+<div id="nav-root" data-page="myvibhor"></div>
+
+<header class="page-header mv-head">
+  <div class="container ph-inner" id="mvHead"></div>
+</header>
+
+<!-- identity / guest banner -->
+<div class="container">
+  <div id="mvGuest"></div>
+</div>
+
+<!-- section tabs -->
+<nav class="container mv-tabs" id="mvTabs" aria-label="My VIBHOR sections"></nav>
+
+<!-- ============ PASSPORT ============ -->
+<section class="section mv-section" id="passport">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="mv.passport">Heritage Passport</h2>
+      <p data-i18n="mv.passport.sub">One stamp per state & UT — stamp them all to finish the atlas.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="mvPassport"></div>
+  </div>
+</section>
+
+<!-- ============ QUIZ HISTORY ============ -->
+<section class="section mv-section" id="quiz">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="mv.quizHistory">Quiz history</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="mvQuiz"></div>
+  </div>
+</section>
+
+<!-- ============ BADGES / ACHIEVEMENTS ============ -->
+<section class="section mv-section" id="badges">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="mv.badges">Achievements</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="mvBadges"></div>
+  </div>
+</section>
+
+<!-- ============ CHALLENGES + CONTRIBUTIONS ============ -->
+<section class="section mv-section" id="challenges">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="my.challenges">My challenges</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="mvChallenges"></div>
+  </div>
+</section>
+
+<section class="section mv-section" id="contributions">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="mv.contrib">My contributions</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="mvContrib"></div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY BUILDER ============ -->
+<section class="section mv-section" id="journey">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="mv.journey">Journey Builder</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div id="journeyBuilder"></div>
+    <div style="margin-top:38px">
+      <h3 style="font-family:var(--font-head);margin-bottom:14px" data-i18n="mv.journeys">Saved journeys</h3>
+      <div id="mvJourneys"></div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-root"></div>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-items-1.js"></script>
+<script src="js/data-items-2.js"></script>
+<script src="js/data-states.js"></script>
+<script src="js/data-timelines.js"></script>
+<script src="js/data-images.js"></script>
+<script src="js/passport-data.js"></script>
+<script src="js/content-i18n.js"></script>
+<script src="js/content-hi.js"></script>
+<script src="js/content-te.js"></script>
+<script src="js/content-ta.js"></script>
+<script src="js/content-bn.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/i18n-extra.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/script.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/archive-store.js"></script>
+<script src="js/search.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/voice-input.js"></script>
+<script src="js/journey-builder.js"></script>
+<script src="js/my-vibhor.js"></script>
+<script src="js/voice-guide.js"></script>
+</body>
+</html>

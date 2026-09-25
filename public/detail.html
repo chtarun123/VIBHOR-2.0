@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Story — VIBHOR Indian Heritage</title>
+<meta name="description" content="Location, history, features, cultural importance, gallery and videos for each Indian heritage story.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' font-family='Georgia' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="detail">
+
+<div id="nav-root" data-page="detail"></div>
+
+<div id="detailRoot">
+  <header class="detail-hero" id="detailHero"></header>
+
+  <!-- ============ AI VOICE STORYTELLING ============ -->
+  <section class="section" style="padding-top:0" id="voiceGuide" aria-label="Listen to the story">
+    <div class="container">
+      <div class="voice-guide">
+        <div class="vg-bar">
+          <span class="vg-icon" aria-hidden="true">🔊</span>
+          <div class="vg-title"><b id="voiceTitle">Listen to the Story</b><small id="voiceSub">AI narration · word-by-word guide · +15 pts</small></div>
+          <div class="vg-controls">
+            <button class="vg-btn" id="voicePlay" aria-label="Play narration">▶</button>
+            <button class="vg-btn ghost" id="voiceStop" aria-label="Stop narration">⏹</button>
+            <span class="vg-label" id="voiceLabel">Play</span>
+          </div>
+        </div>
+        <div class="vg-panel">
+          <label class="vg-field">
+            <span id="voiceSpeedLbl">Speed</span>
+            <select id="voiceRate" aria-label="Narration speed">
+              <option value="0.75">0.75×</option>
+              <option value="1" selected>1×</option>
+              <option value="1.25">1.25×</option>
+              <option value="1.5">1.5×</option>
+            </select>
+          </label>
+          <label class="vg-field">
+            <span id="voiceVolLbl">Volume</span>
+            <input type="range" id="voiceVolume" min="0" max="100" value="100" aria-label="Narration volume">
+          </label>
+          <label class="vg-field grow">
+            <span id="voiceVoiceLbl">Choose a voice</span>
+            <select id="voiceSelect" aria-label="Narration voice"></select>
+          </label>
+          <button type="button" class="vg-btn ghost vg-test" id="voiceTest" aria-label="Test the selected voice">🔈 <span id="voiceTestLbl">Test Voice</span></button>
+        </div>
+        <div class="vg-status" id="voiceStatus" role="status"></div>
+        <div class="vg-progress" aria-hidden="true"><div id="voiceProgress"></div></div>
+        <div class="vg-words" id="voiceWords"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:52px">
+    <div class="container">
+      <div class="info-grid" id="infoGrid"></div>
+
+      <div style="margin-top:18px" id="wikiCard"></div>
+      <div id="passportCta"></div>
+    </div>
+  </section>
+
+  <!-- ============ INTERACTIVE TIMELINE ============ -->
+  <section class="section" style="padding-top:0" id="timelineSection">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="overline">Through the Ages</span>
+        <h2 data-i18n="timeline.title">Timeline</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="tl-track" id="tlTrack"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="overline">Gallery</span>
+        <h2>Moments & Textures</h2>
+        <p>A visual companion — five distinct frames, each with its own story.</p>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ YOUTUBE (dynamic API) ============ -->
+  <section class="section yt-section" id="videos">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="yt-head">
+          <span class="yt-badge"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.5A3 3 0 00.5 6.2 31.6 31.6 0 000 12a31.6 31.6 0 00.5 5.8 3 3 0 002.1 2.2c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.2A31.6 31.6 0 0024 12a31.6 31.6 0 00-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg></span>
+          <div>
+            <h3 id="ytTitle">Watch on YouTube</h3>
+            <p>Live from the YouTube search service — click any card to play it in the modal player.</p>
+          </div>
+        </div>
+      </div>
+      <div id="videoGrid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="overline">Keep Exploring</span>
+        <h2>More from this Region</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="item-grid" id="relatedGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ RECOMMENDATION ENGINE ============ -->
+  <section class="section rec-section" id="recSection">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="overline">Hand-Picked For You</span>
+        <h2 data-i18n="related.title">You May Also Like</h2>
+        <p data-i18n="related.sub">Similar stories by state, theme and tradition.</p>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="item-grid" id="recGrid"></div>
+    </div>
+  </section>
+</div>
+
+<div id="footer-root"></div>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-items-1.js"></script>
+<script src="js/data-items-2.js"></script>
+<script src="js/data-timelines.js"></script>
+<script src="js/data-images.js"></script>
+<script src="js/content-i18n.js"></script>
+<script src="js/content-hi.js"></script>
+<script src="js/content-te.js"></script>
+<script src="js/content-ta.js"></script>
+<script src="js/content-bn.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/i18n-extra.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/script.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/voice-guide.js"></script>
+<script src="js/voice-input.js"></script>
+<script src="js/search.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/debug-panel.js"></script>
+</body>
+</html>

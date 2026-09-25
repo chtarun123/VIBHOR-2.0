@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIBHOR — One India. Four Regions. Endless Heritage.</title>
+<meta name="description" content="An immersive Indian Heritage portal — explore 120 stories of temples, dances, foods, festivals, forts and crafts across North, South, East and West India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' font-family='Georgia' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="home">
+
+<div id="nav-root" data-page="home"></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <span class="overline" style="justify-content:center" data-i18n="hero.overline">Indian Heritage Portal</span>
+    <h1 data-i18n="hero.title">One India. Four Regions. <em>Endless Heritage.</em></h1>
+    <p class="hero-sub" data-i18n="hero.sub">From the snow temples of Kedarnath to the gopurams of Madurai, from the dhol beats of Punjab to the chenda thunder of Kerala — a single, organised journey through the living culture of India.</p>
+    <div class="hero-search" id="heroSearch">
+      <div class="hs-row">
+        <span class="hs-ico" aria-hidden="true">🔍</span>
+        <input type="text" placeholder="Search temples, foods, festivals, dances, states…" data-i18n-ph="search.placeholder" autocomplete="off" spellcheck="false" aria-label="Smart search">
+        <button type="button" class="hs-mic" id="heroMic" title="Voice search" aria-label="Voice search">🎤</button>
+      </div>
+      <div class="hs-suggest" id="heroSuggestions"></div>
+      <div class="vh-mic-status" id="heroMicStatus" aria-live="polite"></div>
+    </div>
+    <div class="hero-ctas">
+      <a class="btn btn-gold" href="#regions" data-i18n="hero.cta1">Explore the Regions</a>
+      <a class="btn btn-ghost" href="map.html" data-i18n="hero.cta2">Open the Heritage Map</a>
+    </div>
+    <div class="hero-stats" id="heroStats"></div>
+  </div>
+</header>
+
+<!-- ============ YOUR HERITAGE JOURNEY (live dashboard) ============ -->
+<section class="container journey-dash" style="position:relative;z-index:5;margin-top:-26px;margin-bottom:6px">
+  <div class="journey-card reveal" id="journeyCard"></div>
+</section>
+
+<!-- ============ REGIONS ============ -->
+<section class="section" id="regions">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Choose Your Region</span>
+      <h2 data-i18n="regions.title">Four Regions, One Heartbeat</h2>
+      <p>Each region is a world of its own — pick a door, and step inside its temples, tables and festivals.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="regions-grid" id="regionsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="categories" style="background:linear-gradient(180deg, transparent, rgba(43,0,0,.4), transparent)">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Choose Your Category</span>
+        <h2 data-i18n="categories.title">Twelve Ways to See India</h2>
+      <p>Prefer to follow a thread instead of a map? Dive straight into dances, foods, temples and more — across every region.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="cats-grid" id="catsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ QUIZ TEASER ============ -->
+<section class="section" id="quiz" style="padding-top:52px;padding-bottom:52px">
+  <div class="container">
+    <div class="reveal" style="display:flex;gap:clamp(1.4rem,4vw,3rem);align-items:center;justify-content:center;flex-wrap:wrap;background:linear-gradient(140deg,rgba(212,175,55,.12),rgba(43,0,0,.55));border:1px solid var(--gold-dim);border-radius:22px;padding:clamp(1.6rem,4.5vw,3rem);box-shadow:var(--shadow)">
+      <div style="font-size:clamp(3rem,7vw,5rem);line-height:1" aria-hidden="true">🎲💃</div>
+      <div style="max-width:520px">
+        <span class="overline">Heritage Quiz · For Young Explorers</span>
+        <h2 style="font-size:clamp(1.7rem,3.6vw,2.4rem);margin:.55rem 0 .6rem">Think you know India? Prove it!</h2>
+        <p style="color:var(--muted);font-size:.97rem;margin-bottom:1.2rem">10 rapid-fire questions. Build streaks, earn speed bonuses, unlock fun ranks — from <b style="color:var(--gold-soft)">Heritage Rookie</b> 🌱 to <b style="color:var(--gold-soft)">Heritage Legend</b> 🏆. Festivals, temples, food, dance and crafts await.</p>
+        <a class="btn btn-gold" href="quiz.html">Play the Quiz ✦</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="overline">Curated for You</span>
+      <h2 data-i18n="featured.title">Featured Stories</h2>
+      <p>A hand-picked taste from each of the four regions — the ones our curators keep returning to.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="item-grid cols-3" id="featuredGrid"></div>
+    <div style="text-align:center;margin-top:34px" class="reveal">
+      <a class="btn btn-ghost" href="region.html">Browse All Stories →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESERVE INDIA'S HERITAGE (Heritage Archive) ============ -->
+<section class="section preserve-band" id="preserve">
+  <div class="container preserve-wrap">
+    <div class="preserve-text reveal">
+      <span class="overline" data-i18n="home.preserve.over">Community Preservation · Local Archive</span>
+      <h2 data-i18n="home.preserve.title">Preserve India's Heritage</h2>
+      <p data-i18n="home.preserve.sub">Have an old cultural book, manuscript, photograph or family record? Help preserve it digitally.</p>
+      <div class="preserve-actions">
+        <a class="btn btn-gold" href="archive.html#preserve" data-i18n="home.preserve.scan">📷 Scan / Upload</a>
+        <a class="btn btn-ghost" href="archive.html" data-i18n="home.preserve.browse">📜 Browse Heritage Archive</a>
+      </div>
+      <p class="preserve-count" id="preserveCount" hidden></p>
+    </div>
+    <div class="preserve-journey reveal" aria-label="Preservation journey">
+      <div class="pj-step"><span class="pj-ico">🔭</span><b data-i18n="pv.j.discover">Discover</b></div>
+      <span class="pj-arrow" aria-hidden="true">→</span>
+      <div class="pj-step"><span class="pj-ico">📖</span><b data-i18n="pv.j.document">Document</b></div>
+      <span class="pj-arrow" aria-hidden="true">→</span>
+      <div class="pj-step"><span class="pj-ico">📷</span><b data-i18n="pv.j.digitize">Digitize</b></div>
+      <span class="pj-arrow" aria-hidden="true">→</span>
+      <div class="pj-step is-hot"><span class="pj-ico">🛡️</span><b data-i18n="pv.j.preserve">Preserve</b></div>
+      <span class="pj-arrow" aria-hidden="true">→</span>
+      <div class="pj-step"><span class="pj-ico">🤝</span><b data-i18n="pv.j.share">Share</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMUNITY ============ -->
+<section class="section" id="community" style="background:linear-gradient(180deg, transparent, rgba(43,0,0,.5), transparent)">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Community</span>
+      <h2>Real People. Real Heritage.</h2>
+      <p data-i18n="com.sub">Real people, real heritage — challenges, leaderboard, contributions and the shared archive.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="hero-stats" id="communityStats" style="margin-bottom:22px"></div>
+    <div class="preserve-actions reveal" style="justify-content:center">
+      <a class="btn btn-gold" href="community.html#challenges">🏆 Join a Challenge</a>
+      <a class="btn btn-ghost" href="community.html#leaderboard">🥇 Leaderboard</a>
+      <a class="btn btn-ghost" href="archive.html">📜 Heritage Archive</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about" style="background:linear-gradient(180deg, transparent, rgba(43,0,0,.45), transparent)">
+  <div class="container">
+    <div class="about-grid">
+      <div class="ag-text reveal">
+        <span class="overline">About Us</span>
+        <h2 style="font-size:clamp(1.8rem,3.4vw,2.5rem);margin:.6rem 0 1rem">Why VIBHOR Exists</h2>
+        <p>VIBHOR (meaning <em>“splendour”</em> in Sanskrit) is a single, organised journey through 120 heritage stories — ten per category, in every region. Instead of making you search, we lay out the entire country as <b style="color:var(--gold-soft)">four regions × twelve categories × every state</b> — so you can simply pick a door and walk in.</p>
+        <p>Every story is a real place or tradition with its own history, features and cultural importance, linked to its Wikipedia reference — and every page streams related videos straight from YouTube, so the heritage doesn't just sit on a page: it moves, it dances, it cooks, it sings.</p>
+        <p>This is a fan-made, educational curation. Images are stock and illustrative placeholders.</p>
+      </div>
+      <div class="about-facts reveal">
+        <div class="fact"><b>120</b><span>Curated stories · 10 per category</span></div>
+        <div class="fact"><b>4</b><span>Cultural regions</span></div>
+        <div class="fact"><b>12</b><span>Categories</span></div>
+        <div class="fact"><b>36</b><span>States & UTs</span></div>
+        <div class="fact"><b>∞</b><span>YouTube videos</span></div>
+        <div class="fact"><b>1</b><span>Organised journey</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Good to Know</span>
+      <h2>Frequently Asked Questions</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q">What exactly is VIBHOR? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>VIBHOR is an immersive Indian-heritage web app: a curated library (four regions × twelve categories, 120 real stories, each with history, features, importance and a Wikipedia reference) plus a real community layer — accounts, challenges, a leaderboard and a shared Heritage Archive, all served by its own Node + SQLite backend from one command.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Which regions and states are covered? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>The four cultural regions — North (UP, Rajasthan, Punjab, Himachal, Uttarakhand, Delhi, MP, J&K), South (Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana), East (West Bengal, Odisha, Bihar, Jharkhand, Assam, Chhattisgarh) and West (Maharashtra, Gujarat, Goa). The interactive map covers all 36 states and UTs, each coloured by its cultural region.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Can I browse without an account? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>Yes — guests can browse, search, use the map, listen to stories, chat with the AI Guide and play the quiz with no sign-in. A free account only unlocks saved progress, challenge and archive submissions, saved journeys and the leaderboard. Passwords are bcrypt-hashed; nothing is stored in plain text.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Where does my data live? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>Everything is local-first: the SQLite database file lives inside the project folder, uploads land in server/uploads, and guest progress stays in your browser until you sign in and it merges into your account. Your first-party data never leaves your machine.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="section" id="newsletter">
+  <div class="container">
+    <div class="newsletter reveal">
+      <div>
+        <span class="overline">Stay in the Loop</span>
+        <h3>Heritage in your inbox</h3>
+        <p>One dispatch a month — a festival worth catching, a craft worth meeting, a place worth visiting.</p>
+      </div>
+      <div style="flex:1;min-width:280px;max-width:480px">
+        <form class="nl-form" data-newsletter>
+          <input type="email" required placeholder="your@email.com" aria-label="Email address">
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+        </form>
+        <div class="nl-msg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-root"></div>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-items-1.js"></script>
+<script src="js/data-items-2.js"></script>
+<script src="js/data-timelines.js"></script>
+<script src="js/data-images.js"></script>
+<script src="js/content-i18n.js"></script>
+<script src="js/content-hi.js"></script>
+<script src="js/content-te.js"></script>
+<script src="js/content-ta.js"></script>
+<script src="js/content-bn.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/i18n-extra.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/script.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/archive-store.js"></script>
+<script src="js/voice-input.js"></script>
+<script src="js/search.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/home.js"></script>
+<script src="js/voice-guide.js"></script>
+<script src="js/debug-panel.js"></script>
+</body>
+</html>

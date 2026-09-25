@@ -1,0 +1,181 @@
+VIBHOR — Image credits
+All photographs in /public/images are freely licensed works from
+Wikimedia Commons (commons.wikimedia.org), the media repository behind
+Wikipedia. Lead photograph of each subject's own encyclopedia article.
+You may replace any file with your own photography; drop it under
+public/images and reference it from public/js/data-*.js.
+
+FILE                                       SOURCE FILE (commons.wikimedia.org/wiki/File:...) · LICENSE · ARTIST
+
+images/cats/architecture                   Chand_Baori_perspective_panorama_(July_2022).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/crafts                         Madhubani_Mahavidyas.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/dances                         Kathakali_-Play_with_Kaurava.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/festivals                      The_Rangoli_of_Lights.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/foods                          Tradtional_Thali.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/forts                          20191219_Fort_Amber,_Amer,_Jaipur_0955_9481.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/gardens                        Shalimar_Bagh_1.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/historical                     unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/monuments                      India_Gate_in_the_Evening.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/music                          Tyagaraja.jpg · CC BY 2.0 · Dhanyasy School of Music
+images/cats/temples                        unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/cats/textiles                       'Sari'_from_Varanasi_(north-central_India),_silk_and_gold-wrapped_silk_yarn_with_supplementary_weft_brocade.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/abhang                        Abhang.jpg · CC BY-SA 4.0 · Ninad Katyare
+images/items/adalaj                        Adalaj_ki_Vav_Gujarat_240A1370_72.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/agra-fort                     Agra_03-2016_16_Agra_Fort.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/aguada                        unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/alleppey                      Alleppey backwaters view , Kerala , India 11.jpg · CC BY-SA 4.0 · Harvinder Chandigarh
+images/items/amer                          unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/awadhi-biryani                "Hyderabadi_Dum_Biryani".jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/bandhani                      Bandhani_print_open.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/bathukamma                    బతుకమ్మ.jpg · CC BY 4.0 · VishwakEIMP
+images/items/bhangra                       Bhangra-dance.jpg · CC BY-SA 4.0 · Jaipuneetsingh
+images/items/bharatanatyam                 Murugashankari_Leo.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/bhatiyali                     Behar Herald 15-07-2016.pdf · CC BY-SA 4.0 · Wikimedia Commons contributor
+images/items/bishnupur                     unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/brihadeeswarar                Brihadisvara Temple during Maha Shivaratri-WUS03611 (edit).jpg · CC BY-SA 4.0 · Original: Rainer Halama Derivative work: UnpetitproleX
+images/items/carnatic                      Tanjore-style_Carnatic_tambura.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/chand-baori                   Chand_Baori_perspective_panorama_(July_2022).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/channapatna                   Channapatna_intersection.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/charminar                     Charminar_Hyderabad_1.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/chenda-melam                  Chendaa.jpg · CC BY-SA 3.0 · Fotokannan
+images/items/chettinad                     The_Chettinad_palace_karaikudi_2013-09-07_00-11.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/chhau                         Chhau_Nritya_(1).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/chikankari                    Craft_Artisans_of_India_02.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/chole-kulcha                  Chole_Bhature_from_Nagpur.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/dal-lake                      Dal_Lake_Hazratbal_Srinagar.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/dandiya                       Dandiya Raas.jpg · CC BY-SA 2.0 · Tashiya
+images/items/darjeeling-tea                Darjeeling,_India,_Darjeeling_tea_in_variety,_Black_tea.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/dhamal                        Sidhi dhamal dance.jpg · CC BY-SA 4.0 · Siddharth 36
+images/items/dhol                          Bhangra_at_Vasakhi.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/dosa                          Masala Dosa from Kochi, Kerala, India -2069313.jpg · CC BY-SA 4.0 · Ranjithsiji
+images/items/durga-puja                    বাগবাজার_সার্বজনীন_দুর্গোৎসব_২০১৮.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/dwarka                        Dwarakadheesh_Temple,_2014.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/ellora                        unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/fatehpur-sikri                Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/fort-william                  St. Peters Church, Fort William, Calcutta by Francis Frith.jpg · Public domain · Francis Frith
+images/items/ganesh-chaturthi              Khairathabad_Vinayakudu_2021.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/garba                         Garba dance during Navaratri festival in Mehsana Gujarat India.ogv · CC BY-SA 4.0 · Nizil Shah
+images/items/gateway                       Mumbai_03-2016_30_Gateway_of_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/ghoomar                       Ghoomar_dancers_(Rajasthan,_India,_2023).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/goan-colonial                 "Plan_de_Goa",_in_Histoire_générale_des_voyages,1750.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/goan-curry                    Goan typical meal -- fish, curry and rice.jpg · CC BY-SA 4.0 · Fredericknoronha
+images/items/gol-gumbaz                    Gol_Gumbaz_-4,_Bijapur,_Karnataka.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/golden-temple                 The_Golden_Temple_of_Amrithsar_7.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/gond                          Tribal painting on cloth.svg · CC BY-SA 4.0 · Suyash Dwivedi
+images/items/hampi                         Wide_angle_of_Galigopuram_of_Virupaksha_Temple,_Hampi_(04)_(cropped).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/hawa-mahal                    East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/hindustani                    Dhrupad_2.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/howrah-bridge                 Howrah_bridge_at_night.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/hyd-biryani                   "Hyderabadi_Dum_Biryani".jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/india-gate                    India_Gate_in_the_Evening.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/jagannath                     Shri_Jagannath_temple.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/jaisalmer                     Jaisalmer_Fort.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kanjivaram                    unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kantha                        Antique Kantha Embroidery with Inscription Ram Krishna.jpg · CC BY-SA 4.0 · Jainamishra
+images/items/kasavu                        WikiConference India 2026 kasavu border tile.svg · CC BY-SA 4.0 · Dev Jadiya
+images/items/kashi-vishwanath              Kashi_Vishwanath.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kathak                        Kathak_contemporary_03.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kathakali                     Kathakali_-Play_with_Kaurava.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kaziranga                     Beauty_of_Kaziranga_National_Park.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/khajuraho                     1_Khajuraho.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kodaikanal                    Prince's Palace at night - panoramio.jpg · CC BY-SA 3.0 · Santiago Puig Vilado…
+images/items/konark                        Konarka_Temple.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kuchipudi                     Kuchipudi_Performer_DS.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/kutch-embroidery              Woman's shirt from Kutch, Gujarat, India, IMA 55114.jpg · Copyrighted free use · Indianapolis Museum of Art
+images/items/lohri                         Lohri_bonfire.png · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/machh-bhaat                   Alu_ar_dhonepata_diye_Boyal_machher_jhol.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/madhubani                     Madhubani painting by Bhuvana Meenakshi.jpg · CC BY-SA 3.0 · Bhuvana Meenakshi
+images/items/magh-mela                     Scenes_from_every_land,_second_series;_a_collection_of_250_illustrations_picturing_the_people,_natural_phenomena,_and_animal_life_in_all_parts_of_the_world._With_one_map_and_a_bibliography_of_(14580412870).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/makhana                       Foxnut Makhana - Nawada District - Bihar - 1.jpg · CC BY-SA 4.0 · FacetsOfNonStickPans
+images/items/mamallapuram                  unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/mandu                         unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/maner-dargah                  Maner_dargah_..._Bihar_._INDIA.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/meenakshi                     An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/miniatures                    Rajasthani Painting.jpg · CC BY 3.0 · Onef9day
+images/items/muga                          Assamese_Muga_With_Japi.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/munnar                        Munnar_Overview.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/mysore-palace                 Mysore_Palace_Morning.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/nadaswaram                    A_Nadaswaram_with_seevali.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/nalanda                       unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/nalukettu                     unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/nataraja                      Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/navratri                      Garba night in Bhopal.jpg · CC BY-SA 4.0 · Archies2804
+images/items/nishat                        Nishat_Bagh.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/odissi                        Odissi_dance_at_Nishagandi_Dance_Festival_2024_(207).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/onam                          Onapookkalam.jpg · CC BY 2.5 · Challiyan at Malayalam Wikipedia
+images/items/paithani                      Paithani_Bridal_Sari_LACMA_M.75.4.23_(2_of_2).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/pashmina                      Pure-pashmina-embroidered-shawl.jpg · CC BY-SA 4.0 · Pashminu
+images/items/patola                        Patola (India), 19th century (CH 18437535).jpg · Public domain · Unknown artist Unknown artist
+images/items/pattachitra                   Odisha_Pattachitara_Depicting_Unconditional_Love_between_Radha_Krushna.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/pochampally                   Hermann_Linde_-_Girl_standing_in_a_veranda_wearing_a_Pochampalli_sari_(ca.1895).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/pongal                        A man dancing with fire at a Pongal Festival in Namakkal, Tamil Nadu, India.jpg · CC BY-SA 4.0 · Matthew T Rader
+images/items/qutub-minar                   Qutub Minar in Delhi 03-2016.jpg · FAL · A.Savin
+images/items/raigad                        Nagarkhana,_Raigad_Fort,_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/rajbari                       Mahishadal Rajbari (Palace) Front View.jpg · CC BY-SA 4.0 · Subhrajyoti07
+images/items/ranthambore-fort              Ranthambhore_Fort.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/rasgulla                      Rasgulla.jpg · CC BY-SA 4.0 · HrichikHv
+images/items/rath-yatra                    People eagerly await atop their houses to witness the Rath Yatra procession.jpg · CC BY-SA 4.0 · iMahesh
+images/items/sadya                         Sadhya_DSW.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/sambalpuri                    Sambalpuri_saree1.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/sanchi                        Stupa 1, Sanchi 02.jpg · CC BY-SA 3.0 · Bernard Gagnon
+images/items/santali                       Tamak_and_Tumdak_01.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/santiniketan                  Shantiniketan_Bari_of_Rabindranath_Tagore.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/sasan                         Universal classics library (IA universalclassic14wash).pdf · Public domain · Wikimedia Commons contributor
+images/items/shalimar                      Shalimar Bagh, Srinagar.jpg · CC BY-SA 4.0 · Pradeepkjoshi
+images/items/shivaji-park                  Raje_Shivaji_with_mother_Jijamata.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/siddhivinayak                 Shree Siddhivinayak Temple Mumbai.jpg · CC BY-SA 3.0 · Darwininan
+images/items/somnath                       Somanath_mandir_(cropped).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/srirangapatna                 Gopuram_of_the_Ranganathaswamy_Temple,_Srirangapatna_Karnataka_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/statue-unity                  Statue_of_Unity.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/sufi                          Dervish.JPG · CC BY-SA 3.0 · Ajaiberwal
+images/items/taj-mahal                     Taj_Mahal_(Edited).jpeg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/tanjore-painting              MN331 Temple of Tanjore, Southern India.jpg · Public domain · Marianne North
+images/items/teej                          Teej.jpg · CC BY-SA 3.0 · Ganesh Paudel at ne.wikipedia
+images/items/tirumala                      Tirumala Venkateswara temple entrance 09062015.JPG · CC BY-SA 4.0 · Nikhilb239
+images/items/trichy-fort                   Uccipillaiyar-Temple-Rockfort-Trichy-TanilNadu-India.jpg · CC BY 4.0 · N. Vivekananthamoorthy
+images/items/vada-pav                      Vada_Pav-Indian_street_food.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/vellore-fort                  Vellorefort.jpg · CC BY-SA 2.0 · Chandrachoodan Gopalakrishnan from Chennai, India
+images/items/victoria-memorial             Victoria_Memorial_situated_in_Kolkata.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/vijayanagara-arch             An old Kannada inscription from the Badami Chalukya period.jpg · Public domain · Original uploader was Dineshkannambadi at en.wikipedia
+images/items/wada                          Vishrambaug_Wada_Pune.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/items/warli                         Painted_prayers,_Warli_paintings,_at_Sanskriti_Kendra,_Anandagram,_New_Delhi.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/regions/east                        Konarka_Temple.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/regions/north                       Taj_Mahal_(Edited).jpeg · freely licensed (Commons) · Wikimedia Commons contributor
+images/regions/south                       unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/regions/west                        Mumbai_03-2016_30_Gateway_of_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/andaman-and-nicobar          The_Coral_Reef_at_the_Andaman_Islands.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/andhra-pradesh               Tirumala_090615.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/arunachal-pradesh            TawangMonastery-ArunachalPradesh-1.jpg · CC BY-SA 4.0 · Arkadipta Chandra
+images/states/assam                        Beauty_of_Kaziranga_National_Park.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/bihar                        Temple_No.-_3,_Nalanda_Archaeological_Site.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/chandigarh                   Open_Hand_monument,_Chandigarh.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/chhattisgarh                 Bhoramdeo_Temple,_Kawardha.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/dadra-daman                  Vanganga_Garden,_Silvassa_(32345632184).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/delhi                        Jama_Masjid_2011.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/goa                          BeachFun.jpg · CC BY-SA 4.0 · Sam 8393
+images/states/gujarat                      Rani_ki_vav_02.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/haryana                      Cyber_City_View.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/himachal-pradesh             Kullu_Valley_near_Manali,_Himachal_Pradesh,_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/jammu-kashmir                unknown · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/jharkhand                    Views_of_Shikharji_on_way_to_Anantnatha_Tonk_3.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/karnataka                    Hampi_virupaksha_temple.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/kerala                       Boathouse_(7063399547).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/ladakh                       Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/lakshadweep                  A_beach_side_resort_at_Kadmat_Island,_Lakshadweep.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/madhya-pradesh               India-5749_-_Visvanatha_Temple_-_Flickr_-_archer10_(Dennis).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/maharashtra                  Cave_26,_Ajanta.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/manipur                      Pumlenpat_Lake.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/meghalaya                    Dawki_River,_Meghalaya,_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/mizoram                      Embossed_Figures_Kawtchhuah_Ropui_Vangchhia_Mapuia_Hnamte_(1).JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/nagaland                     Kapamodzu.jpg · CC BY-SA 4.0 · Suduvelu Rhakho
+images/states/odisha                       Brahmeswar_Temple,_Bhubaneswar.JPG · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/puducherry                   Pondicherry-Rock_beach_aerial_view.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/punjab                       Golden_Temple,_Amritsar,_Punjab_UNAG.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/rajasthan                    Thar_Khuri.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/sikkim                       Gurudongmar_Lake_Sikkim,_India_(edit).jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/tamil-nadu                   Mamallapuram_view.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/telangana                    Kakatiyas_well_at_warangal.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/tripura                      Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/uttar-pradesh                Taj_Mahal_(Edited).jpeg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/uttarakhand                  Nanda_Devi_-_Hidden_Summit,_Uttarakhand_India_2013.jpg · freely licensed (Commons) · Wikimedia Commons contributor
+images/states/west-bengal                  Howrah_bridge_betwixt_Lights.jpg · freely licensed (Commons) · Wikimedia Commons contributor

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Archive — community-preserved documents | VIBHOR</title>
+<meta name="description" content="Browse and preserve cultural documents: manuscripts, recipe books, family records — the community's digital memory of India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/archive.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' font-family='Georgia' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="archive">
+
+<div id="nav-root" data-page="archive"></div>
+
+<header class="page-header">
+  <div class="container ph-inner">
+    <span class="overline">📜 Community Preservation</span>
+    <h1 data-i18n="arch.title">Heritage Archive</h1>
+    <p data-i18n="arch.sub">Documents, manuscripts and memories preserved by the community — permanently, digitally.</p>
+    <p class="preserve-count" id="archCount"></p>
+  </div>
+</header>
+
+<nav class="container mv-tabs" aria-label="Archive sections">
+  <a href="#browse" class="mv-tab">🗂️ <span data-i18n="arch.browse">Browse the archive</span></a>
+  <a href="#preserve" class="mv-tab">📷 <span data-i18n="arch.preserve">Preserve a document</span></a>
+</nav>
+
+<!-- ============ BROWSE ============ -->
+<section class="section" id="browse">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="arch.browse">Browse the archive</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="arch-filters" id="archFilters"></div>
+    <div id="archGrid"></div>
+  </div>
+</section>
+
+<!-- ============ PRESERVE ============ -->
+<section class="section preserve-band" id="preserve">
+  <div class="container">
+    <div class="mv-sec-head reveal visible">
+      <h2 data-i18n="arch.preserve">Preserve a document</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="preserve-panel" id="preservePanel"></div>
+  </div>
+</section>
+
+<div id="footer-root"></div>
+<div id="recordModalHost"></div>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-items-1.js"></script>
+<script src="js/data-items-2.js"></script>
+<script src="js/data-states.js"></script>
+<script src="js/data-images.js"></script>
+<script src="js/content-i18n.js"></script>
+<script src="js/content-hi.js"></script>
+<script src="js/content-te.js"></script>
+<script src="js/content-ta.js"></script>
+<script src="js/content-bn.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/i18n-extra.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/script.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/archive-store.js"></script>
+<script src="js/search.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/voice-input.js"></script>
+<script src="js/archive-page.js"></script>
+<script src="js/voice-guide.js"></script>
+</body>
+</html>

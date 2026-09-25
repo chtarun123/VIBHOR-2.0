@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Quiz — VIBHOR Indian Heritage</title>
+<meta name="description" content="A fast, fun, interactive quiz on the heritage and culture of India — festivals, temples, dance, food and crafts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' font-family='Georgia' text-anchor='middle' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="quiz">
+
+<div id="nav-root" data-page="quiz"></div>
+
+<header class="page-header" style="padding-top:56px;padding-bottom:34px">
+  <div class="container" style="text-align:center">
+    <span class="overline center">Play · Learn · Win</span>
+    <h1 style="font-size:clamp(2.2rem,5vw,3.4rem);margin:.5rem 0 .7rem"><span data-i18n="quiz.title">Heritage Quiz</span> <span aria-hidden="true">🎲</span></h1>
+    <p style="color:var(--muted);max-width:560px;margin:0 auto;font-size:1rem">
+      10 questions · streaks · speed bonuses · fun ranks.
+      Test your knowledge of India's festivals, temples, dances, foods and crafts.
+    </p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:24px;padding-bottom:90px">
+  <div class="container quiz-wrap" id="quiz-root">
+    <!-- start / question / result screens render here -->
+  </div>
+</section>
+
+<div id="footer-root"></div>
+<canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-timelines.js"></script>
+<script src="js/content-i18n.js"></script>
+<script src="js/content-hi.js"></script>
+<script src="js/content-te.js"></script>
+<script src="js/content-ta.js"></script>
+<script src="js/content-bn.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/i18n-extra.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/script.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/voice-input.js"></script>
+<script src="js/search.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/quiz-data.js"></script>
+<script src="js/data-states.js"></script>
+<script src="js/data-images.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/voice-guide.js"></script>
+<script src="js/debug-panel.js"></script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+/* ============================================================
+   VIBHOR — Heritage Items · Part 1 (North & South India)
+   ============================================================ */
+
+/* ---------------- NORTH INDIA ---------------- */
+HERITAGE.items.push(
+H("kathak","Kathak","dances","north","Uttar Pradesh","Lucknow","",
+"The graceful classical dance of rhythm and storytelling, born in the courts of Uttar Pradesh.",
+"Kathak evolved over centuries in the courts of Uttar Pradesh, where Sufi and Bhakti traditions met. The Lucknow gharana later refined its rapid footwork and expressive abhinaya into the form known today.",
+["Rapid circular footwork (tatkar)","Bells (ghungroo) on the ankles","Storytelling through mudra and gait"],
+"Recognised among India's eight classical dance forms, Kathak is a living bridge between the country's spiritual and Sufi heritage.",
+"https://en.wikipedia.org/wiki/Kathak"),
+
+H("bhangra","Bhangra","dances","north","Punjab","Amritsar","",
+"High-energy harvest dance of Punjab, whipped to the thunder of the dhol.",
+"Bhangra began as a folk celebration of the wheat harvest, performed to the thunder of the dhol. Punjabi diaspora carried it to stages across the world, where it is now a global spectacle.",
+["Dhol-driven 4/4 rhythm","Twirling and shoulder movements","Bright phulkari and turbans"],
+"A symbol of Punjabi pride, Bhangra is one of India's most recognised cultural exports.",
+"https://en.wikipedia.org/wiki/Bhangra"),
+
+
+H("ghoomar","Ghoomar","dances","north","Rajasthan","Jaipur","",
+"Rajasthan's royal circular dance, spinning in layered ghagras and silver jhumar.",
+"Ghoomar flourished in the courts of Rajputana, danced by queens and court ladies of Mewar. It remains the signature dance of Rajasthan's weddings and celebrations.",
+["Rotating circular formation","Flowing ghagra with mirror-worked jhumar","Gruv (swaying) footwork"],
+"Performed at every major wedding in Rajasthan, Ghoomar is the emblem of Rajput grace.",
+"https://en.wikipedia.org/wiki/Ghoomar"),
+
+H("hindustani","Hindustani Classical Music","music","north","Uttar Pradesh","Varanasi","",
+"North India's raga tradition — a 2,000-year-old science of melody and mood.",
+"Hindustani classical music grew out of a fusion of Vedic, Sufi and court traditions. The gharanas of Varanasi, Gwalior and Agra codified its improvisatory language over the centuries.",
+["Raga and tala systems","Gharana schools of style","Vocal, sitar and sarod traditions"],
+"Along with Carnatic music, it is one of the two great pillars of Indian classical music.",
+"https://en.wikipedia.org/wiki/Hindustani_classical_music"),
+
+H("sufi","Sufi Music","music","north","Delhi","Delhi","",
+"Devotional melody where dhol and qawwali echo through the dargahs.",
+"Sufi music travelled with the Sufi saints along trade routes, blending Persian and Hindustani forms. The dargahs of Ajmer and Delhi became its great centres of devotion.",
+["Qawwali call-and-response","Dhamal circle dancing","Devotional poetry in Hindi and Persian"],
+"Sufi music remains a bridge between faiths in the cultural landscape of North India.",
+"https://en.wikipedia.org/wiki/Sufi_music"),
+
+H("dhol","Dhol Beats of Punjab","music","north","Punjab","Jalandhar","",
+"The twin-headed drum that drives every folk celebration in Punjab.",
+"The dhol is the heart of Punjabi folk music, played in pairs at weddings, fairs and fests. Master dholis still train in the traditional gur-shishya parampara.",
+["Twin-headed barrel drum","Baithi and khori strokes","Paired lead and follow drums"],
+"No Punjabi celebration is complete without the dhol — it is the pulse of the region.",
+"https://en.wikipedia.org/wiki/Dhol"),
+
+H("awadhi-biryani","Awadhi Biryani","foods","north","Uttar Pradesh","Lucknow","",
+"Saffron-scented rice layered with slow-cooked meat — a Mughal court recipe.",
+"Awadhi biryani was born in the Mughal kitchens of Lucknow, where the dum technique reached perfection. The Lucknowi style is famed for its delicate layering and royal presentation.",
+["Dum (sealed) slow cooking","Saffron, kewra and whole spices","Served with raita and salan"],
+"A defining dish of Awadhi cuisine, a celebrated heritage of Mughlai cooking in India.",
+"https://en.wikipedia.org/wiki/Biryani"),
+
+H("chole-kulcha","Chole Kulcha","foods","north","Punjab","Amritsar","",
+"Spicy chickpea curry with tandoor-baked flatbreads — a Punjabi street legend.",
+"Chole kulcha became famous in the street stalls of Amritsar, where travellers on the Golden Route stopped for a tandoor meal. Kulchas were stuffed and baked against the clay wall of the tandoor.",
+["Tandoor-baked stuffed kulcha","Slow-cooked Amritsari chole","Served with chutney, onion and pickled turnip"],
+"A defining taste of Punjabi street-food culture, loved across the subcontinent.",
+"https://en.wikipedia.org/wiki/Chole_kulcha"),
+
+
+
+H("lohri","Lohri","festivals","north","Punjab","Amritsar","",
+"Winter harvest festival with bonfires, rewri and folk songs.",
+"Lohri marks the end of winter in Punjab, celebrated around bonfires where families toss rewri and peanuts. It is also linked to the folk tale of Lila and Sohni.",
+["Bonfire under the first full moon","Rewri, gajak and new clothes","Bhangra and folk songs around the fire"],
+"One of North India's most beloved winter festivals, celebrated across the diaspora.",
+"https://en.wikipedia.org/wiki/Lohri"),
+
+H("teej","Teej","festivals","north","Rajasthan","Jaipur","",
+"Women fast for the well-being of husbands, decked in mehndi and bangles.",
+"Teej is a festival of fasting and renewal, observed by women across Rajasthan and North India. On the third day, women gather with henna and dance to the dholki.",
+["Fasting from sunrise to sunset","Henna, bangles and new attires","Folk songs and dholki"],
+"A celebration of sisterhood and devotion in Rajasthani culture.",
+"https://en.wikipedia.org/wiki/Teej"),
+
+
+H("magh-mela","Magh Mela","festivals","north","Uttar Pradesh","Prayagraj","",
+"Grand winter gathering at the confluence of three rivers.",
+"The Magh Mela is held each January at the Sangam in Prayagraj, where devotees bathe at the confluence of the Ganga, Yamuna and mythical Saraswati. Once in twelve years it becomes the greater Kumbh Mela.",
+["Holy bath at the Sangam","Yogi and sadhu processions","Night markets and aarti"],
+"One of the world's oldest and largest gatherings, continuing a tradition that spans millennia.",
+"https://en.wikipedia.org/wiki/Magh_Mela"),
+
+
+H("golden-temple","Golden Temple","temples","north","Punjab","Amritsar","",
+"Holiest Gurdwara of Sikhism, gilded in gold and open to all.",
+"The Harmandir Sahib was completed in the 16th century under the guidance of Guru Arjan Dev. Its sanctum was gilded in gold in the 18th century, giving the temple its famous name.",
+["Gold-leafed upper sanctum","Sarovar tank and marble causeway","Langar — free community kitchen"],
+"One of the most visited religious sites in the world and a symbol of Sikh seva.",
+"https://en.wikipedia.org/wiki/Golden_Temple"),
+
+H("kashi-vishwanath","Kashi Vishwanath Temple","temples","north","Uttar Pradesh","Varanasi","",
+"Great Shiva temple of the city on the Ganga, heart of aarti and aarti-lit ghats.",
+"The Kashi Vishwanath temple has been destroyed and rebuilt many times; the current structure dates from the 18th century. Varanasi itself is one of the oldest continuously inhabited cities in the world.",
+["Gold-plated spire and domes","Evening Ganga aarti on the ghats","Durgah and Panch Kosi corridors"],
+"Kashi is considered the spiritual capital of India, and this temple is its beating heart.",
+"https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"),
+
+
+H("khajuraho","Khajuraho Temples","temples","north","Madhya Pradesh","Chhatarpur","",
+"Eleven surviving temples famed for exquisite stone carving.",
+"The Khajuraho temples were built in the 9th–11th centuries by the Chandela dynasty, representing both Nagara and Vesara styles. Their carved façades earned them UNESCO World Heritage status.",
+["Nagara shikharas and mandapa complexes","Narrative carvings on nearly every surface","East, South and West temple groups"],
+"A UNESCO-listed masterpiece of Indian temple sculpture.",
+"https://en.wikipedia.org/wiki/Khajuraho"),
+
+H("fatehpur-sikri","Fatehpur Sikri","historical","north","Uttar Pradesh","Agra","",
+"Akbar's ghost city — a complete Mughal capital in red sandstone.",
+"Emperor Akbar founded Fatehpur Sikri in 1571 as his imperial capital after the conquest of Chitor. Within twenty years the city was abandoned, likely due to water scarcity.",
+["Buland Darwaza — 54 m high gateway","Panch Mahal, five-storey palace","Ibadat Khana, hall of religious discussion"],
+"A rare, remarkably complete Mughal planned capital and a UNESCO World Heritage Site.",
+"https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
+
+
+
+H("jaisalmer","Jaisalmer","historical","north","Rajasthan","Jaisalmer","",
+"The Golden City — a fort-town rising from the Thar desert.",
+"Jaisalmer was founded in 1156 by Rawal Jaisal, and its fort-city has never been conquered. The entire old town is built of golden sandstone, giving the city its nickname.",
+["Living fort with 900+ havelis","Naragarh and Patwon-ki-Haveli","Sambhar Lake on the horizon"],
+"A UNESCO-listed medieval desert city and jewel of Rajputana.",
+"https://en.wikipedia.org/wiki/Jaisalmer"),
+
+H("mandu","Mandu","historical","north","Madhya Pradesh","Dhar","",
+"Hilltop city of the Malwa sultans, famous for music and red-sandstone ruins.",
+"Mandu was the capital of the Malwa Sultanate in the 14th–16th centuries. Known as the 'City of Joy', it was famed for its music, wine culture and red-sandstone mosques and palaces.",
+["Jama Masjid with 99 minarets","Hauz Khas lake complex","Palaces of Bahadur Shah"],
+"One of India's most atmospheric ruin cities and a UNESCO World Heritage Site.",
+"https://en.wikipedia.org/wiki/Mandu"),
+
+H("chand-baori","Chand Baori","architecture","north","Rajasthan","Ranakpur","",
+"A geometric descent of 3,500 steps — India's largest stepwell.",
+"Chand Baori was built in the 9th century by King Chanda of the Nikumbha dynasty to solve water scarcity. Its 3,500 steps descend in perfect symmetry to water levels 30 m below.",
+["3,500 steps in 13 tiers","Mathematically precise symmetry","Sunlight entering through a single shaft"],
+"A masterpiece of hydraulic engineering and an icon of Rajput architecture.",
+"https://en.wikipedia.org/wiki/Chand_Baori"),
+
+H("hawa-mahal","Hawa Mahal","architecture","north","Rajasthan","Jaipur","",
+"Five-storey pink honeycomb of windows — the 'Palace of Winds'.",
+"Hawa Mahal was built in 1799 by Maharaja Sawai Pratap Singh as an extension to the City Palace. Its lattice windows let cool air through and allowed royal women to watch street life unseen.",
+["953 tiny lattice windows","Honeycomb sandstone façade","Five storeys in a fan shape"],
+"The postcard icon of the Pink City, Jaipur.",
+"https://en.wikipedia.org/wiki/Hawa_Mahal"),
+
+
+H("amer","Amer Fort","forts","north","Rajasthan","Jaipur","",
+"Sandstone-and-marble fort crowning a hill above Maota Lake.",
+"Built in 1727 by Maharaja Sawai Jai Singh II, who renamed the city Jaipur, Amer Fort blends Rajput and Mughal styles with courtyards, palaces and gates of intricate detail.",
+["Surya Chokhi and Piplani palace","Carved Jawan Ki Chokhi","Elephant rides up to the fort"],
+"A UNESCO-listed monument and the most visited fort in Rajasthan.",
+"https://en.wikipedia.org/wiki/Amer_Fort"),
+
+H("agra-fort","Agra Fort","forts","north","Uttar Pradesh","Agra","",
+"Red sandstone fort that was the seat of Mughal power for a century.",
+"Agra Fort was built by Akbar in 1565 and later embellished by Shah Jahan. It is the fort from which the imprisoned Shah Jahan watched the Taj Mahal being built.",
+["Red sandstone walls, 4 km around","Mumtaz Mahal and Diwan-i-Khas","Musamman Burj tower"],
+"A UNESCO World Heritage Site and the seat of Mughal imperial power.",
+"https://en.wikipedia.org/wiki/Agra_Fort"),
+
+H("ranthambore-fort","Ranthambore Fort","forts","north","Rajasthan","Sawai Madhopur","",
+"Ruined hilltop fort surrounded by tiger country.",
+"Ranthambore Fort was built by Raja Bhoj in the 10th century and later passed between Rajputs and Mughals. Today it stands as a ruined hilltop fort within Ranthambore National Park.",
+["Hilltop ramparts and ruined palaces","Inside the Ranthambore tiger reserve","Traces of Jain and Hindu shrines"],
+"A UNESCO-listed site where wildlife and history meet.",
+"https://en.wikipedia.org/wiki/Ranthambore_Fort"),
+
+
+H("miniatures","Rajasthani Miniature Painting","crafts","north","Rajasthan","Jaipur","",
+"Exquisite miniature paintings of courts, deities and nature.",
+"Rajasthani miniatures flourished in the courts of Mewar, Marwar and Bundi from the 16th century. Each school — Nathdwara, Kishangarh, Bikaner — developed its own palette and style.",
+["Fine brushwork with natural pigments","Kishangarh's soft romantic style","Mythological and courtly themes"],
+"One of the great schools of Indian painting, still practised in family ateliers.",
+"https://en.wikipedia.org/wiki/Indian_miniature_painting"),
+
+
+
+H("gond","Gond Painting","crafts","north","Madhya Pradesh","Rewa","",
+"Tribal folk art of the Gond people, drawing forests and cosmology.",
+"Gond painting is the traditional art of the Gond tribe of central India, once painted on walls and temple surfaces. In the 20th century artists began working on paper under patronage.",
+["Dot-hatching and line technique","Animal, forest and cosmic motifs","Natural earth pigments"],
+"One of India's most celebrated tribal art forms, now enjoyed worldwide.",
+"https://en.wikipedia.org/wiki/Gond_painting"),
+
+H("bandhani","Bandhani","textiles","north","Rajasthan","Ajmer","",
+"Thousands of tiny tied knots make floral dots on a sari.",
+"Bandhani is practised in Rajasthan and Gujarat, where fabric is tied in thousands of tiny knots before dyeing. Each knot resists the dye, becoming a dot in the final pattern.",
+["Single and double bandhani patterns","Red and maroon colour tradition","Silk and cotton cloths"],
+"A craft of Rajasthan's weddings, protected by geographical indication.",
+"https://en.wikipedia.org/wiki/Bandhani"),
+
+H("chikankari","Chikankari","textiles","north","Uttar Pradesh","Lucknow","",
+"Mughal 'shadow work' — delicate embroidery on fine muslin.",
+"Chikankari is said to have been introduced to Lucknow in the Mughal era. The craft survived on chanderi and muslin, and is now the signature of Lucknow's fashion identity.",
+["Shadow-work (taant) stitching","Floral and paisley motifs","White-on-white elegance"],
+"A GI-tagged craft and the soul of Lucknow's textile heritage.",
+"https://en.wikipedia.org/wiki/Chikankari"),
+
+H("pashmina","Pashmina Shawls","textiles","north","Jammu & Kashmir","Srinagar","",
+"Featherlight cashmere woven in the Himalayan valleys.",
+"Pashmina is woven from the under-fleece of the Changthangi goat, found in the high pastures of Ladakh and Kashmir. Shawls were once royal gifts in the Mughal courts.",
+["Finest 12-micron cashmere","Khatamband and floral kalamkari","Handwoven on narrow looms"],
+"The world's most coveted cashmere, a GI-protected heritage.",
+"https://en.wikipedia.org/wiki/Pashmina"),
+
+
+H("taj-mahal","Taj Mahal","monuments","north","Uttar Pradesh","Agra","",
+"The white marble mausoleum of love — a world icon.",
+"The Taj Mahal was commissioned by Shah Jahan in 1632 in memory of his wife Mumtaz Mahal. Some 20,000 artisans and craftsmen worked for 22 years to complete the mausoleum.",
+["Perfectly symmetrical white marble dome","Pietra dura inlay work","Charbagh garden and reflecting pool"],
+"A UNESCO World Heritage Site and one of the New Seven Wonders of the World.",
+"https://en.wikipedia.org/wiki/Taj_Mahal"),
+
+H("qutub-minar","Qutub Minar","monuments","north","Delhi","Delhi","",
+"73-metre tower of victory rising from a complex of ruined tombs.",
+"Construction of the Qutub Minar began in 1192 under Qutb-ud-din Aibak and was completed in 1220 by Iltutmish. Its 260 steps and carved bands of Quranic verses make it one of the world's tallest minarets.",
+["Five fluted storeys","Intricate Arabic inscriptions","Adjacent Iron Pillar (800 CE)"],
+"A UNESCO-listed monument and symbol of the Sultanate's first architecture in India.",
+"https://en.wikipedia.org/wiki/Qutab_Minar"),
+
+H("india-gate","India Gate","monuments","north","Delhi","Delhi","",
+"A 42-metre arch of remembrance for India's soldiers.",
+"India Gate was designed by Sir Edwin Lutyens and completed in 1931 to honour the 70,000 soldiers of the British Indian Army who died in World War I. It stands at the ceremonial axis of the city.",
+["42 m arch inspired by the Arc de Triomphe","Amar Jawan eternal flame below","Surrounded by Lutyens' buildings"],
+"The ceremonial heart of Delhi and a monument to national sacrifice.",
+"https://en.wikipedia.org/wiki/India_Gate"),
+
+H("sanchi","Sanchi Stupa","monuments","north","Madhya Pradesh","Raisen","",
+"Ashoka's great stupa — the oldest Buddhist monument in India.",
+"The Great Stupa at Sanchi was commissioned by Emperor Ashoka in the 3rd century BCE. Its four carved toranas are masterpieces of early Buddhist narrative art.",
+["Hemispherical dome, 36.5 m across","Four toranas with narrative reliefs","Rock-cut caves and monasteries"],
+"A UNESCO World Heritage Site and symbol of the early spread of Buddhism.",
+"https://en.wikipedia.org/wiki/Sanchi"),
+
+H("shalimar","Shalimar Bagh","gardens","north","Jammu & Kashmir","Srinagar","",
+"Mughal paradise garden in three terraces above Dal Lake.",
+"Shalimar Bagh was built in 1619 by Mughal emperor Jahangir in memory of his wife Nur Jahan. Its three terraces cascade with fountains, and the name means 'palace of love'.",
+["Three terraces with 400 fountains","Charbagh quadrants","Views over Dal Lake"],
+"The most famous of Kashmir's Mughal gardens.",
+"https://en.wikipedia.org/wiki/Shalimar_Bagh"),
+
+H("nishat","Nishat Bagh","gardens","north","Jammu & Kashmir","Srinagar","",
+"Twelve terraces of chinar trees cascading to the lake.",
+"Nishat Bagh was built in 1636 by Asif Khan, brother of Empress Nur Jahan. Its twelve terraces step down the Zabarwan hills towards Dal Lake, lined with chinar trees.",
+["12 terraces of chinar trees","Cascading water channels","Sunset views over Dal Lake"],
+"A classic example of Mughal terraced garden design.",
+"https://en.wikipedia.org/wiki/Nishat_Bagh"),
+
+H("dal-lake","Dal Lake","gardens","north","Jammu & Kashmir","Srinagar","",
+"Srinagar's mirror lake — houseboats, shikaras and floating gardens.",
+"Dal Lake is a natural lake in Srinagar that has been central to the city's life for centuries. Its houseboat culture and floating 'rad' gardens are a centuries-old Kashmiri tradition.",
+["Houseboats and shikara rides","Floating vegetable rafts","Chinar and willow fringes"],
+"The 'Jewel in the Crown' of Kashmir tourism.",
+"https://en.wikipedia.org/wiki/Dal_Lake")
+);
+
+/* ---------------- SOUTH INDIA ---------------- */
+HERITAGE.items.push(
+H("bharatanatyam","Bharatanatyam","dances","south","Tamil Nadu","Chennai","",
+"Sculptural temple dance — a 2,000-year-old classical form.",
+"Bharatanatyam, earlier known as Sadir, was performed in Tamil temples by devadasis. It was revived in the 20th century by Rukmini Devi Arundale and is now danced worldwide.",
+["Tandava and shuddha tandava footwork","Storytelling through abhinaya","Nritta, nritya and natya elements"],
+"One of India's eight classical dance forms, with its home in Tamil Nadu.",
+"https://en.wikipedia.org/wiki/Bharatanatyam"),
+
+H("kathakali","Kathakali","dances","south","Kerala","Thrissur","",
+"Mythological dance-drama with expressive eyes and hours of face paint.",
+"Kathakali emerged in 17th-century Kerala from older forms like Krishnanattam and Ramanattam. Performers spend hours on chutti (face make-up) and costume before each show.",
+["Intricate chutti face make-up","Eye and facial storytelling","Carnatic accompaniment with chenda and maddalam"],
+"A UNESCO-recognised classical dance and the pride of Kerala.",
+"https://en.wikipedia.org/wiki/Kathakali"),
+
+H("kuchipudi","Kuchipudi","dances","south","Andhra Pradesh","East Godavari","",
+"Temple dance-drama fusing theatre and music, born in an Andhra village.",
+"Kuchipudi originated in the 17th century in the village of Kuchipudi. Its first full-length dance-drama, the story of Andhala Bhikshuki, was staged there by Siddhendra Yathi.",
+["Dance-drama format","Melle (dance-duel) sequences","Carnatic musical base"],
+"A classical form that preserves Andhra's folk theatre tradition.",
+"https://en.wikipedia.org/wiki/Kuchipudi"),
+
+
+H("carnatic","Carnatic Music","music","south","Tamil Nadu","Madurai","",
+"South India's raga tradition, anchored by the Trinity of composers.",
+"Carnatic music is the classical tradition of South India, codified by the Trinity — Tyagaraja, Venkatamakhin and Syama Sastri. The Madurai Music Season and the Chennai Music Season are its grandest stages.",
+["Raga and tala systems","Melakarta 72-melody framework","Vocal, violin and veena traditions"],
+"One of the two pillars of Indian classical music, with the world's largest annual classical music season.",
+"https://en.wikipedia.org/wiki/Carnatic_music"),
+
+H("chenda-melam","Chenda Melam","music","south","Kerala","Kozhikode","",
+"Thunder of chenda drums that wakes temple gopurams.",
+"Chenda Melam is the percussion tradition of Kerala temples, performed at the foot of gopurams in group ensembles. Each melam has its own rhythmic cycles and repertoire.",
+["Multiple chenda drums and maddalam","Vatta and other melams","Accompanies Theyyam and processions"],
+"The heartbeat of Kerala's temple festivals.",
+"https://en.wikipedia.org/wiki/Chenda_Melam"),
+
+H("nadaswaram","Nadaswaram","music","south","Tamil Nadu","Thanjavur","",
+"Double-reed temple pipe that leads every festival procession.",
+"The nadaswaram is the lead instrument of Tamil temple festivals, played with the thavil drum. It is said that the deity himself is woken by its sound.",
+["Double-reed pipe with five valves","Played with the thavil drum","Temple and festival repertoire"],
+"The soul of Tamil temple music.",
+"https://en.wikipedia.org/wiki/Nadaswaram"),
+
+H("hyd-biryani","Hyderabadi Biryani","foods","south","Telangana","Hyderabad","",
+"Nizam's kitchen dum biryani with its famous kacchi method.",
+"Hyderabadi biryani was born in the kitchens of the Nizams, where kacchi biryani is cooked with raw meat and sealed for dum. The city's mirchi ka salan and double ka meetha complete the royal meal.",
+["Kacchi dum technique","Saffron and mint layers","Mirchi ka salan and double ka meetha"],
+"One of the most famous regional cuisines of India.",
+"https://en.wikipedia.org/wiki/Biryani"),
+
+H("sadya","Kerala Sadya","foods","south","Kerala","Thrissur","",
+"Banana-leaf feast — 26+ dishes from curries to payasam.",
+"The sadya is a traditional Kerala meal served on a banana leaf, with dishes arranged in a fixed order from rice to payasam. It is the highlight of Onam and temple festivals.",
+["26+ dishes on a banana leaf","Sambar, aviyal and thoran","Ends with payasam"],
+"The most iconic culinary ritual of South India.",
+"https://en.wikipedia.org/wiki/Sadya"),
+
+H("dosa","Dosa & Idli","foods","south","Karnataka","Bengaluru","",
+"Fermented rice-and-lentil pancakes and cakes — the South's breakfast.",
+"Dosa and idli are fermented foods of the South, with regional variations from the thin Mysore to the crisp Guntur style. Bengaluru's street stalls perfected them as quick, wholesome breakfasts.",
+["Fermented rice-and-urad batter","Mysore masala dosa","Served with sambar and chutney"],
+"A South Indian breakfast that conquered the world's tables.",
+"https://en.wikipedia.org/wiki/Dosa"),
+
+
+H("pongal","Pongal","festivals","south","Tamil Nadu","Thanjavur","",
+"Four-day harvest festival that boils the first rice of the new year.",
+"Pongal is the four-day harvest festival of Tamil Nadu, from Thai Poosam to Mattu Pongal. The boiling-over of the pongal pot symbolises abundance, greeted with the cheer 'Pongalo Pongal!'.",
+["Boiling of new rice in a clay pot","Sun worship on Surya Pongal","Bull-taming on Mattu Pongal"],
+"South India's great harvest festival.",
+"https://en.wikipedia.org/wiki/Pongal"),
+
+H("onam","Onam","festivals","south","Kerala","Thrissur","",
+"Ten-day harvest festival with the grand sadya and snake-boat races.",
+"Onam is Kerala's ten-day festival celebrating the return of the ideal king Mahabali. Its highlights are the sadya, the pulikali and the Nehru Trophy snake-boat race.",
+["Ten days of feasts and flower carpets","Sadya on Atham day","Snake-boat (Vallam Kali) races"],
+"Kerala's state festival and a UNESCO-recognised cultural tradition.",
+"https://en.wikipedia.org/wiki/Onam"),
+
+
+H("bathukamma","Bathukamma","festivals","south","Telangana","Warangal","",
+"Flower ritual with folk songs as women spin bundles of blooms.",
+"Bathukamma is a day-long festival of Telangana and coastal Andhra, where women make a bathukamma of seasonal flowers and spin it to folk songs, celebrating the goddess of creation.",
+["Bathukamma flower bundles","Folk songs and spinning dance","Immersion in water at dusk"],
+"A UNESCO-recognised festival of Telangana's living culture.",
+"https://en.wikipedia.org/wiki/Bathukamma"),
+
+H("brihadeeswarar","Brihadeeswarar Temple","temples","south","Tamil Nadu","Thanjavur","",
+"11th-century granite giant — a masterpiece of Chola engineering.",
+"Built by Rajaraja Chola I and completed in 1010 CE, the Brihadeeswarar temple is a feat of Chola engineering. Its shikhara rises 66 m, crowned by an 80-tonne stone.",
+["66 m shikhara raised without modern cranes","Raja gopuram and Nataraja hall","Vimana crowned with a single 80-tonne stone"],
+"A UNESCO World Heritage Site and one of the world's greatest Hindu temples.",
+"https://en.wikipedia.org/wiki/Brihadeeswarar_Temple"),
+
+H("meenakshi","Meenakshi Amman Temple","temples","south","Tamil Nadu","Madurai","",
+"City of 14 gopurams, a thousand pillars and 33,000 sculptures.",
+"The Meenakshi temple is dedicated to the god Sundareswarar and his consort Meenakshi. It was rebuilt in the 16th–17th centuries by the Nayak dynasty into the sprawling complex seen today.",
+["14 gopurams rising to 52 m","Thousand Pillar Hall","33,000 sculpted figures"],
+"The living heart of Madurai and one of the largest temple complexes in South India.",
+"https://en.wikipedia.org/wiki/Meenakshi_Temple"),
+
+
+
+H("tirumala","Tirumala Venkateswara Temple","temples","south","Andhra Pradesh","Chittoor","",
+"One of the richest and most visited temples on earth.",
+"The Tirumala temple is dedicated to Venkateswara (Lord Balaji) on the seven hills of Tirupati. It is among the wealthiest temples in the world, serving lakhs of laddu prasadams every day.",
+["Seven sacred hills (Srivari Hills)","Vaikunta Ekadasi darshan","Daily laddu prasadam"],
+"One of the most visited religious sites in the world.",
+"https://en.wikipedia.org/wiki/Tirumala_Venkateswara_Temple"),
+
+H("hampi","Hampi","historical","south","Karnataka","Ballari","",
+"Ruined capital of Vijayanagara — boulders, gopurams and empire ghosts.",
+"Hampi was the capital of the Vijayanagara Empire from 1336 to 1646. Its ruins — temples, bazaars and the Vittala chariot — preserve the memory of one of medieval India's greatest empires.",
+["Vittala temple and stone chariot","Matanga hill and Lotus Mahal","Boulder-strewn landscape"],
+"A UNESCO World Heritage Site and one of the world's greatest archaeological sites.",
+"https://en.wikipedia.org/wiki/Hampi"),
+
+H("mamallapuram","Mahabalipuram","historical","south","Tamil Nadu","Kancheepuram","",
+"Shore temples and bas-relief carvings on the Coromandel coast.",
+"Mahabalipuram was the coastal capital of the Pallava kings in the 7th–8th centuries. Its Shore Temple and the bas-relief of the Descent of the Ganges are masterpieces of Dravidian art.",
+["Shore Temple and Varadrajeshwara Temple","Descent of the Ganges bas-relief","Monolithic rathas"],
+"A UNESCO World Heritage Site and the finest Pallava rock art.",
+"https://en.wikipedia.org/wiki/Mahabalipuram"),
+
+H("srirangapatna","Srirangapatna","historical","south","Karnataka","Mysuru","",
+"Island town of Tipu Sultan and the great Ranganathaswamy temple.",
+"Srirangapatna was the capital of the Vijayanagara Empire and later the seat of Tipu Sultan. Its Ranganathaswamy temple is one of the great shrines of Shri Ranga.",
+["Ranganathaswamy temple","Tipu Sultan's palace and mosque","Island geography on the Kaveri"],
+"A town where the histories of the Vijayanagara and Mysore empires meet.",
+"https://en.wikipedia.org/wiki/Srirangapatna"),
+
+
+H("chettinad","Chettinad Mansions","architecture","south","Tamil Nadu","Chettinad","",
+"Colonial-era merchant mansions of the Tamil business community.",
+"The Nattukottai Chettiar community built grand mansions in the late 19th and early 20th centuries, blending Dravidian and Western architecture. Towns like Karaikudi and Mayiladuthurai are full of such mansions.",
+["Carved teak doors and jharokhas","Courtyards and European balconies","Mural and mosaic work"],
+"A living museum of Tamil merchant culture.",
+"https://en.wikipedia.org/wiki/Chettinad"),
+
+H("nalukettu","Nalukettu Houses","architecture","south","Kerala","Thiruvananthapuram","",
+"The traditional Kerala home — sloping tiles and a central courtyard.",
+"The nalukettu is the traditional residential form of Kerala, with rooms arranged around a central courtyard. Built with teak, laterite and tile, it is designed for monsoon living.",
+["Central courtyard (neram)","Sloping tile roofs","Teak wood and laterite construction"],
+"The symbol of Kerala's vernacular architecture and monsoon design.",
+"https://en.wikipedia.org/wiki/Nalukettu"),
+
+H("vijayanagara-arch","Vijayanagara Architecture","architecture","south","Karnataka","Ballari","",
+"The fusion of Dravidian and Hoysala styles that defined an empire.",
+"Vijayanagara architecture is a fusion of the Dravidian temple style with Hoysala ornamental vocabulary, developed under the empire. Its pillars, gopurams and rathas are seen across South India.",
+["Ornate gopurams and mantapas","Girihanka pillars","Rathas and water tanks"],
+"The architectural DNA of medieval South India.",
+"https://en.wikipedia.org/wiki/Vijayanagara_Architecture"),
+
+H("mysore-palace","Mysore Palace","forts","south","Karnataka","Mysuru","",
+"Indo-Saracenic jewel of 27 rooms, lit up at night.",
+"Mysore Palace was built in 1897 after a fire destroyed the older stilt palace. It was designed in an Indo-Saracenic style that blends Hindu, Muslim, Christian and Rajput elements.",
+["27 rooms of carved sandstone","Indo-Saracenic domes and towers","Light-up at night"],
+"The icon of the Mysore Dasara festival.",
+"https://en.wikipedia.org/wiki/Mysore_Palace"),
+
+H("trichy-fort","Rockfort Trichy","forts","south","Tamil Nadu","Tiruchirappalli","",
+"Hilltop fort with three temples on an 83-metre rock.",
+"The Rockfort of Trichy was built on an 83-metre rock crowned with three temples — Uthirakosamangai, Sri Chellappaswami and Kalahasti. The fort changed hands between Pandyas, Cholas and Nayaks.",
+["Hilltop ramparts and bastions","Three temples on the rock","Chola and Nayak structures"],
+"A strategic fort of South Indian history.",
+"https://en.wikipedia.org/wiki/Trichy_Rock_Fort"),
+
+H("vellore-fort","Vellore Fort","forts","south","Tamil Nadu","Vellore","",
+"16th-century fort with Portuguese-built bastions.",
+"Vellore Fort was built in the 16th century by the Aravidu dynasty and later modified by the Portuguese. The Vellore Rebellion of 1806 — India's first revolt against the British — took place here.",
+["Moat and ramparts","Portuguese bastion and gateways","Site of the 1806 rebellion"],
+"A monument of South India's military history.",
+"https://en.wikipedia.org/wiki/Vellore_Fort"),
+
+H("nataraja","Chola Bronzes (Nataraja)","crafts","south","Tamil Nadu","Thanjavur","",
+"Lost-wax bronzes of the dancing Shiva — a pinnacle of Indian art.",
+"Chola bronzes were made in the lost-wax (cire perdue) technique at the peak of the Chola dynasty. The Nataraja bronze is counted among the greatest masterpieces of Indian art.",
+["Lost-wax casting","Nataraja iconography","Temple tradition of Tamil Nadu"],
+"A UNESCO-recognised tradition of Indian metalwork.",
+"https://en.wikipedia.org/wiki/Nataraja"),
+
+H("tanjore-painting","Tanjore Painting","crafts","south","Tamil Nadu","Thanjavur","",
+"Temple painting with gold leaf and gem settings.",
+"Tanjore painting is a traditional art of the Tanjore school, depicting deities in gold leaf with coloured inlay. It flourished under the patronage of the Chola and Maratha courts.",
+["Gold-leaf backgrounds","Gem and bead settings","Flat, frontal deity depiction"],
+"A classic devotional art form of Tamil Nadu.",
+"https://en.wikipedia.org/wiki/Tanjore_painting"),
+
+H("channapatna","Channapatna Toys","crafts","south","Karnataka","Dharwad","",
+"Lacquer toys in bright colours, hand-painted with natural pigments.",
+"Channapatna in Karnataka's Dharwad district has made lacquer toys since the 17th century. The craft, popularised by the Wadia family, is now a GI-tagged industry.",
+["Lac and wood base","Natural pigments and bright colours","Traditional motifs — boats, horses, rattles"],
+"A GI-tagged craft of Karnataka and a heritage of children's toys.",
+"https://en.wikipedia.org/wiki/Channapatna"),
+
+
+H("kanjivaram","Kanjivaram Silk","textiles","south","Tamil Nadu","Kanchipuram","",
+"Temple silk with gold zari — the sari of grand occasions.",
+"Kanjivaram saris are woven in the town of Kanchipuram with a tradition that goes back to the Pallava era. The sari is famous for its contrasting borders and heavy zari work.",
+["Pure mulberry silk","Gold zari borders","Temple and jewel motifs"],
+"India's most famous silk sari, a GI-protected heritage.",
+"https://en.wikipedia.org/wiki/Kanjivaram_sari"),
+
+H("kasavu","Kasavu","textiles","south","Kerala","Kozhikode","",
+"White cotton sari with a golden border — the dress of Onam.",
+"Kasavu is the white-and-gold sari worn by women of Kerala, especially during Onam. The golden border is dyed with turmeric and saffron, and the cloth is handwoven.",
+["White body with gold zari border","Handloom weaving","Associated with the sadya and Onam"],
+"The symbol of Kerala's festive identity.",
+"https://en.wikipedia.org/wiki/Kasavu"),
+
+
+H("pochampally","Pochampally Saree","textiles","south","Telangana","Warangal","",
+"Ikat silks and cottons, dyed before weaving.",
+"Pochampally in Telangana's Warangal district is famous for ikat weaving. Threads are resist-dyed before weaving to create geometric patterns, a craft dating back to the Kakatiya era.",
+["Ikat (resist-dye) technique","Geometric and floral patterns","Silk-cotton and pure silk versions"],
+"A GI-tagged craft of Telangana and a weavers' pride.",
+"https://en.wikipedia.org/wiki/Pochampally_sari"),
+
+H("charminar","Charminar","monuments","south","Telangana","Hyderabad","",
+"Four-minaret gateway — the symbol of Hyderabad.",
+"The Charminar was built in 1591 by Muhammad Quli Qutb Shah, the seventh ruler of the Qutb Shahi dynasty. It is said to have been built to commemorate the end of a plague, with each of its four minarets pointing to a major city.",
+["Four 56-metre minarets","Arched gateway with a mosque","Old-city bazaars around it"],
+"The icon of Hyderabad and one of India's most recognised monuments.",
+"https://en.wikipedia.org/wiki/Charminar"),
+
+H("gol-gumbaz","Gol Gumbaz","monuments","south","Karnataka","Kalaburagi","",
+"Domed mausoleum with one of the largest unbraced domes in the world.",
+"Gol Gumbaz was built in 1656 by Muhammad Adil Shah of the Adil Shahi dynasty. Its 44-metre dome is one of the largest unbraced in the world, and its echo dome is world famous.",
+["44-metre unbraced dome","Echo dome with perfect acoustics","Eight minarets"],
+"A masterpiece of Deccani architecture.",
+"https://en.wikipedia.org/wiki/Gol_Gumbaz"),
+
+H("kodaikanal","Kodaikanal Palace","gardens","south","Tamil Nadu","Dindigul","",
+"Hill palace and gardens — a Victorian retreat in the Palani hills.",
+"Kodaikanal was developed as a hill station in the 19th century, and its palace was built by the British. The palace gardens and nearby forests remain a favourite with visitors.",
+["Victorian palace and rose gardens","Palani hills setting","Kodaikanal Lake nearby"],
+"A symbol of South India's hill-station culture.",
+"https://en.wikipedia.org/wiki/Kodaikanal_Palace"),
+
+H("munnar","Munnar Tea Gardens","gardens","south","Kerala","Idukki","",
+"Rolling emerald tea plantations in the Western Ghats.",
+"Munnar in Kerala's Idukki district has been planted with tea since the British era. Its rolling plantations are a major tourist attraction and part of the Western Ghats biodiversity zone.",
+["Rolling tea plantations","Viewpoints like Echo Point and Top Station","Nilgiri tahr in the nearby reserve"],
+"A UNESCO-listed landscape of the Western Ghats.",
+"https://en.wikipedia.org/wiki/Munnar"),
+
+H("alleppey","Alleppey Backwaters","gardens","south","Kerala","Alappuzha","",
+"Canals, lagoons and houseboats on the Arabian Sea.",
+"Alleppey (Alappuzha), the 'Venice of the East', is known for its network of backwaters. The canals and lagoons are navigated by houseboats and are part of Kerala's coastal geography.",
+["Houseboat (kettuvallam) cruises","Coconut-fringed canals","Fishing and boat-building traditions"],
+"The symbol of Kerala's backwater tourism.",
+"https://en.wikipedia.org/wiki/Alleppey")
+);
